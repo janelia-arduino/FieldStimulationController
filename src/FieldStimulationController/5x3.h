@@ -16,6 +16,9 @@ namespace field_stimulation_controller
 {
 namespace constants
 {
+
+enum{EVENT_COUNT_MAX=16};
+
 // Pins
 
 // Units

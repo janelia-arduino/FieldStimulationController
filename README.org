@@ -17,6 +17,35 @@
 * API NAMES
 
   #+BEGIN_SRC js
+    {
+      "id": "getApi",
+      "result": {
+        "firmware": [
+          "FieldStimulationController"
+        ],
+        "verbosity": "NAMES",
+        "functions": [
+          "stimulationOn",
+          "stimulationOff",
+          "stimulationPwm"
+        ],
+        "parameters": [
+          "delay",
+          "period",
+          "on_duration",
+          "count"
+        ],
+        "properties": [
+          "stimulationDelay",
+          "stimulationPeriod",
+          "stimulationOnDuration",
+          "stimulationCount"
+        ],
+        "callbacks": [
+          "stimulate"
+        ]
+      }
+    }
   #+END_SRC
 
 * API GENERAL
